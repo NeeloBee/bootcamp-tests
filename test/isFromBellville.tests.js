@@ -8,4 +8,8 @@ describe('The isFromBellville function test' , function(){
     it('should show that a number plate is from Belleville when it only has the "CY" words in' , function(){
         assert.equal("CY" , "CY");
     });
+
+    it('should fail when the number plate does not contain "CY"' , function(){
+        assert.equal('CJ 98912' , 'CA 98912');
+    })
 });

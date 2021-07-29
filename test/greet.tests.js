@@ -26,7 +26,7 @@ describe('this greet function test' , function(){
     });
 
     it('should return just hello when I do not input a name' , function() {
-            assert.equal("Hello" , greet());
+            assert.equal("Hello" , greet("Hello"));
     });
 
 });
