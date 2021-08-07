@@ -1,8 +1,12 @@
-/*describe('this test' , function(){
-    it('should show you how to use MochaJS' , function(){
-        assert.equal(2,2);
+describe('The countRegNumber function test' , function(){
+    it('should return the number of registration number in the string which is 3' , function(){
+        var regCount =('CA 182736,CY 523519,CJ 812328')
+        assert.equal(regCount, 3);
+    });
 
-        assert.deepEqual([2,2],[2,2]);
+    it('should return the number of registration number in the string, which is 1', function(){
+        var regCount = ('CA 182736')
+        assert.equal(regCount, 1);
     });
 
 });
