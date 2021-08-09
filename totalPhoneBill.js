@@ -12,6 +12,6 @@ function totalPhoneBill(cost) {
             sms.push(billLogs);
         }
     }
-    let total = (call.length*2.75) + (sms.length*0.6)
+    let total = (call.length*2.75) + (sms.length*0.65)
 return "R" + total.toFixed(2);
 }
