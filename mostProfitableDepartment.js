@@ -12,7 +12,7 @@ function mostProfitableDepartment (salesData) {
     currentDepTotal = currentDepTotal + sData.sales;
     dataMap[sData.department] = currentDepTotal;
     }
-    console.log(datMap);
+    console.log(dataMap);
 
     var currentMaxSales = 0;
     var current = "";
